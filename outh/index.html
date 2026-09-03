@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#121414" />
+    <meta name="description" content="The Undying Oath — a covenant of duty, honor, and legacy." />
+    <title>The Undying Oath</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;600;700&family=Libre+Caslon+Text:wght@400;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="top-navigation">
+      <div class="navigation-container">
+        <a class="wordmark" href="#mission" aria-label="The Undying Oath home">The Undying Oath</a>
+        <nav class="navigation-links" aria-label="Primary navigation">
+          <a class="navigation-link is-active" href="#mission" aria-current="page">Mission</a>
+          <a class="navigation-link" href="#virtues">Virtues</a>
+          <a class="navigation-link" href="#legacy">Legacy</a>
+        </nav>
+        <button class="oath-button navigation-oath" type="button" data-oath-trigger><span>Swear the Oath</span></button>
+        <button class="menu-button" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-navigation" data-menu-trigger><span></span><span></span></button>
+      </div>
+      <nav class="mobile-navigation" id="mobile-navigation" aria-label="Mobile navigation" data-mobile-menu>
+        <a class="navigation-link is-active" href="#mission" aria-current="page">Mission</a>
+        <a class="navigation-link" href="#virtues">Virtues</a>
+        <a class="navigation-link" href="#legacy">Legacy</a>
+        <button class="oath-button" type="button" data-oath-trigger><span>Swear the Oath</span></button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="mission" aria-labelledby="hero-title">
+        <img class="hero-figure" src="assets/warrior.jpg" alt="" aria-hidden="true" />
+        <div class="hero-scrim" aria-hidden="true"></div>
+        <div class="hero-content"><h1 id="hero-title">The <span>Undying</span> Oath</h1></div>
+      </section>
+
+      <section class="introduction" id="legacy" aria-labelledby="legacy-title">
+        <div class="corner-mark" aria-hidden="true"></div>
+        <p class="section-label">In Death</p>
+        <div class="introduction-content">
+          <h2 id="legacy-title">Our undying oath transcends time and existence</h2>
+          <div class="prose-columns">
+            <p>This passage delves into the profound nature of duty, honor, and legacy, illustrating that a genuine commitment to one's values or mission extends beyond physical death. Such a commitment transcends the boundaries of time and mortal life, evolving into a lasting influence that persists through the actions, memories, and inspirations it leaves behind.</p>
+            <p>Duty, therefore, is not merely a responsibility but a timeless force that endures beyond our physical existence. Furthermore, the passage emphasizes the resilience of the human spirit, revealing that the highest virtues like courage, loyalty, and sacrifice are not limited to our earthly existence.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="virtues" id="virtues" aria-label="The virtues">
+        <div class="virtues-container">
+          <article class="virtue-card">
+            <div class="virtue-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 4.55 2.96 8.66 7 10 4.04-1.34 7-5.45 7-10V6l-7-3Z" /></svg></div>
+            <h3>Courage</h3><p>To stand firm against the encroaching darkness. A steadfast spirit that outlasts mortal fear.</p>
+          </article>
+          <article class="virtue-card">
+            <div class="virtue-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 20.6 10.55 19.3C5.4 14.7 2 11.62 2 7.85 2 4.77 4.42 2.4 7.5 2.4c1.74 0 3.41.81 4.5 2.08A6.01 6.01 0 0 1 16.5 2.4C19.58 2.4 22 4.77 22 7.85c0 3.77-3.4 6.85-8.55 11.46L12 20.6Z" /></svg></div>
+            <h3>Loyalty</h3><p>Bound by blood and honor. A connection that persists long after we are gone, inspiring future generations.</p>
+          </article>
+          <article class="virtue-card">
+            <div class="virtue-icon virtue-icon--stone" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m7.3 4 5.1 5.1L15.6 6l1.4 1.4-3.2 3.1L19 15.7 17.7 17l-5.2-5.2L9.4 15 8 13.6l3.1-3.2L5.9 5.4 7.3 4Zm9.4 8.6 1.4-1.4L21 14.1l-1.4 1.4-2.9-2.9Z" /></svg></div>
+            <h3>Sacrifice</h3><p>The ultimate offering for a purpose greater than oneself. Imbuing true honor with timeless significance.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="call-to-action" aria-labelledby="oath-heading">
+        <div class="cta-content">
+          <h2 id="oath-heading">Become part of <br />something greater</h2>
+          <p>These virtues become part of something greater, continuing to inspire future generations long after we are gone. This enduring dedication highlights how a steadfast spirit can outlast death.</p>
+          <button class="oath-button cta-button" type="button" data-oath-trigger><span>Swear the Oath</span></button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <a class="footer-wordmark" href="#mission">The Undying<br />Oath</a>
+        <p class="copyright">Established in blood. Enduring in spirit. © MMXXIV The Undying Oath.</p>
+        <nav class="footer-links" aria-label="Legal navigation"><a href="#privacy">Privacy</a><a href="#terms">Terms</a><a href="#contact">Contact</a></nav>
+      </div>
+    </footer>
+
+    <dialog class="oath-dialog" data-oath-dialog aria-labelledby="dialog-title">
+      <button class="dialog-close" type="button" aria-label="Close" data-dialog-close>&times;</button>
+      <p class="section-label">The Undying Oath</p><h2 id="dialog-title">Take your stand.</h2><p>Speak the promise, then carry it into the world.</p>
+      <button class="oath-button" type="button" data-dialog-close><span>I will keep the oath</span></button>
+    </dialog>
+    <script src="app.js"></script>
+  </body>
+</html>
